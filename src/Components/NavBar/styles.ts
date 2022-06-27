@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 330px;
+  min-width: 330px;
   height: 100vh;
   display: flex;
-
 `;
 
 export const ComponentBlue = styled.div`
@@ -19,4 +19,11 @@ background:#FEFEFE ;
 color: #000;
 width: 95%;
 height: 100%;
+display: flex;
+justify-content: center;
+`;
+
+export const LapInfo = styled.div`
+display: flex;
+justify-content: center;
 `;

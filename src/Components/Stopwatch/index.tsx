@@ -2,11 +2,19 @@ import React from 'react';
 
 import { Container, Circle, Time} from './styles';
 
-const Stopwatch: React.FC = () => {
+interface Props {
+  time:number;
+}
+
+const Stopwatch = ({time}:Props) => {
   return (
     <Container>
         <Circle>
-            <Time>00:00:00:00</Time>
+            <Time>
+              <span>{("0" + Math.floor((time/60000) % 60)).slice(-2)}:</span>
+              <span>{("0" + Math.floor((time/1000) % 60)).slice(-2)}:</span>
+              <span>{("0" + Math.floor((time/10) % 100)).slice(-2)}</span>
+            </Time>
         </Circle>
     </Container>
   );

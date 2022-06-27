@@ -2,13 +2,19 @@ import React from 'react';
 
 import { Container, SecondaryButtons, PrimaryButtons } from './styles';
 
-const Buttons: React.FC = () => {
+interface Props {
+  setTimerOn:any;
+  resetFunc:() => void;
+  addlapFunc:() => void;
+}
+
+const Buttons = ({addlapFunc,resetFunc,setTimerOn}:Props) => {
   return (
     <Container>
-        <SecondaryButtons>Stop</SecondaryButtons>
-        <PrimaryButtons bigButton>Start</PrimaryButtons>
-        <PrimaryButtons bigButton>Pause</PrimaryButtons>
-        <SecondaryButtons>Lap</SecondaryButtons>
+        <SecondaryButtons onClick={() => resetFunc()}>Stop</SecondaryButtons>
+        <PrimaryButtons onClick={() => setTimerOn(true)} bigButton>Start</PrimaryButtons>
+        <PrimaryButtons onClick={() => setTimerOn(false)} bigButton>Pause</PrimaryButtons>
+        <SecondaryButtons onClick={() => addlapFunc()}>Lap</SecondaryButtons>
     </Container>
   );
 }

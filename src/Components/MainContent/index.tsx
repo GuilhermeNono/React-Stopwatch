@@ -4,11 +4,18 @@ import Stopwatch from '../Stopwatch';
 
 import { Container } from './styles';
 
-const MainContent: React.FC = () => {
+interface Props {
+  setTimerOn:any;
+  time:number;
+  addLap:() => void;
+  resetTimer:() => void;
+}
+
+const MainContent = ({resetTimer,addLap,time,setTimerOn}:Props) => {
   return (
     <Container>
-        <Stopwatch />
-        <Buttons />
+        <Stopwatch time={time}/>
+        <Buttons addlapFunc={addLap} resetFunc={resetTimer} setTimerOn={setTimerOn}/>
     </Container>
   );
 }

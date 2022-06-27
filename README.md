@@ -1,6 +1,6 @@
 # React-Stopwatch
 ## 📖 Descrição 
-<p>Simples Cronometro desenvolvido em React, typescript e Styled-Components. </p>
+<p>Simples Cronômetro desenvolvido em React, typescript e Styled-Components. </p>
 
 <a href="https://github.com/GuilhermeNono" target="_blank">- LIVE DEMO(Under Development)</a>
 
@@ -10,7 +10,8 @@
 
 - [x] Desenvolver o wireframe da pagina.
 - [x] Desenvolver todo o frontend da pagina.
-- [ ] Adicionar as funcionalidades a calculadora.
+- [x] Adicionar as funcionalidades a Cronômetro.
+- [ ] Deixar o site Resposivo.
 
 #
 ![Interface](https://i.imgur.com/2Sbz22a.png)

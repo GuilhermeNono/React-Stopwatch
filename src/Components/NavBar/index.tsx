@@ -1,13 +1,23 @@
 import React from "react";
+import Lap from "../Lap";
 
-import { ComponentBlue, Container, ComponentWhite } from "./styles";
+import { ComponentBlue, Container, ComponentWhite, LapInfo } from "./styles";
 
-const NavBar: React.FC = () => {
+interface Props {
+  LapTimeArray:string[];
+}
+
+
+
+const NavBar = ({LapTimeArray}:Props) => {
+  
   return (
     <Container>
       <ComponentBlue>
         <ComponentWhite>
-            Laps
+          <LapInfo>
+            <Lap LapTimeArray={LapTimeArray}/>
+          </LapInfo>
         </ComponentWhite>
       </ComponentBlue>
     </Container>
