@@ -11,7 +11,7 @@
 - [x] Desenvolver o wireframe da pagina.
 - [x] Desenvolver todo o frontend da pagina.
 - [x] Adicionar as funcionalidades ao Cronômetro.
-- [ ] Deixar o site Resposivo.
+- [ ] Deixar o site Responsivo.
 
 #
 ![Interface](https://i.imgur.com/2Sbz22a.png)
