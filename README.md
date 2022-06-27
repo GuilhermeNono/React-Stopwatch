@@ -10,7 +10,7 @@
 
 - [x] Desenvolver o wireframe da pagina.
 - [x] Desenvolver todo o frontend da pagina.
-- [x] Adicionar as funcionalidades a Cronômetro.
+- [x] Adicionar as funcionalidades ao Cronômetro.
 - [ ] Deixar o site Resposivo.
 
 #
