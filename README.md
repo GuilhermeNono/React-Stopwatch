@@ -9,7 +9,7 @@
 ### ✪ Objetivos primarios
 
 - [x] Desenvolver o wireframe da pagina.
-- [ ] Desenvolver todo o frontend da pagina.
+- [x] Desenvolver todo o frontend da pagina.
 - [ ] Adicionar as funcionalidades a calculadora.
 
 #
