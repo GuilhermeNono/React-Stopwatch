@@ -14,7 +14,7 @@
 - [ ] Deixar o site Responsivo.
 
 #
-![Interface](https://i.imgur.com/2Sbz22a.png)
+![Interface](https://i.imgur.com/z6IiorL.png)
 #
 
 ### 🛠 Tecnologias
