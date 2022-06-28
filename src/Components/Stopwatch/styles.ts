@@ -16,9 +16,18 @@ border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
+
+@media (max-width: 1200px) {
+  width: calc(406px/1.2);
+height: calc(406px/1.2);
+}
 `;
 
 export const Time = styled.span`
 font-size: 48px;
 color: #FEFEFE;
+
+@media (max-width: 1200px) {
+  font-size: calc(48px/1.4);
+}
 `

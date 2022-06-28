@@ -15,7 +15,8 @@ export default createGlobalStyle`
 html, body{
     height: 100%;
     width: 100%;
-    background-color: #383D4E;
+    background-color: #383D4E;   
+    overflow: hidden;
 }
 
 .App {
@@ -23,5 +24,7 @@ html, body{
     width: 100% ;
     display: flex;
     flex-direction: row;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 `;

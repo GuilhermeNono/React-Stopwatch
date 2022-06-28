@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import timeFormater from "../../lib/TimeFormater";
 import GlobalStyles from "../../Style/GlobalStyles";
 import MainContent from "../MainContent";
 import NavBar from "../NavBar";
@@ -19,9 +20,7 @@ function App() {
   function addLap() {
     setLapsArray((prevLap) => [
       ...prevLap,
-      `${("0" + Math.floor((time / 60000) % 60)).slice(-2)}:
-    ${("0" + Math.floor((time / 1000) % 60)).slice(-2)}:
-${("0" + Math.floor((time / 10) % 100)).slice(-2)}`,
+      `${timeFormater(time)}`,
     ]);
   }
 
