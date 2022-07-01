@@ -2,7 +2,7 @@
 ## 📖 Descrição 
 <p>Simples Cronômetro desenvolvido em React, typescript e Styled-Components. </p>
 
-<a href="https://nonoreactstopwatch.netlify.app/" target="_blank">- LIVE DEMO(Under Development)</a>
+<a href="https://nonoreactstopwatch.netlify.app/" target="_blank">- LIVE DEMO</a>
 
 ##
 
